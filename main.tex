@@ -1,9 +1,11 @@
+% !TEX program = xelatex
 \documentclass{article}
 \usepackage{fontspec}
 % switch to a monospace font supporting more Unicode characters
 \setmonofont{JuliaMono}
 \usepackage{listings}
 \usepackage{amssymb, amsmath}
+\usepackage{url}
 
 %colors for syntax highlighting
 \usepackage{color}
@@ -20,13 +22,14 @@
 
 \begin{document}
 
-\title{Report on the Workshop "Polyhedra in Lean"}
+\title{Report on the Workshop ``Polyhedra in Lean''}
 \include{authors.tex}
 \date{\today}
 
 \maketitle
 
-\include{section_template.tex}
+%\include{section_template.tex}
+\include{section_ehrhart.tex}
 
 \bibliographystyle{plain}
 \bibliography{references}
